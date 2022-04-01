@@ -1,16 +1,4 @@
-### Termos de uso
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
-
 # Boas vindas ao repositório do projeto de Receitas!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
----
 
 # Sumário
 
@@ -18,7 +6,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
     - [Protótipo do projeto](#protótipo-do-projeto)
-  - [Data de entrega](#data-de-entrega)
 - [Intruções para entregar](#intruções-para-entregar)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
@@ -26,7 +13,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Como desenvolver](#como-desenvolver)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Linter](#linter)
-  - [Execução de testes de requisito](#execução-de-testes-de-requisito)
   - [API's](#apis)
   - [TheMealDB API](#themealdb-api)
   - [The CockTailDB API](#the-cocktaildb-api)
@@ -255,7 +241,7 @@ Você pode ler mais sobre atributos para testes [nesse link](https://www.eduardo
 
 ---
 
-# Intruções para entregar
+# Instruções para entregar
 
 ### Antes de começar a desenvolver:
 
@@ -350,16 +336,6 @@ Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362
 Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
 
 
-## Data de entrega
-
-Projeto em grupo.
-
-Serão dez dias de projeto.
-
-Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
-
----
-
 # Como desenvolver
 
 Este repositório **já conta com uma `main-group` para cada grupo**, identificada como `main-group-1` para o grupo 1, `main-group-2` para o grupo 2, e assim por diante. Para desenvolver, você sempre deve:
@@ -390,24 +366,6 @@ npm run lint
 
 ⚠ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
 
-### Execução de testes de requisito
-
-Para o projeto ser validado, todos os testes de comportamento devem passar. É possível testar isso local rodando `npm run cy`. Esse comando roda a suite de testes do Cypress que valida se o fluxo geral e os requisitos funcionais estão funcionando como deveriam. Você pode também executar o comando `npm run cy:open` para ter um resultado visual dos testes executados.
-
-Esses testes não consideram o layout de maneira geral, mas sim os atributos e informações corretas, então preste atenção nisso! Os testes te darão uma mensagem de erro caso não estejam passando (seja qual for o motivo). 😉
-
-**Atenção:** Sua aplicação deve estar rodando para o Cypress no terminal poder testar.
-
-#### Além dos testes da avaliação automatizada, um dos requisitos do projeto se baseia em **escrever testes unitários que cubram pelo menos 90% do projeto**. Na [documentação do Jest CLI](https://jestjs.io/docs/en/cli) é possível ver como essa cobertura é coletada.
-
-### Dica: desativando testes
-
-Para rodar somente um arquivo de teste, você precisa utilizar o comando `npm run cy -- --spec cypress/integration/login_spec.js`, sendo que após o "spec" é preciso acrescentar todo o caminho até o arquivo de testes.
-
-Para rodar apenas um teste, basta utilizar a função `.only` após o describe. Com isso, será possível que apenas um requisito rode localmente e seja avaliado.
-
-![image](describe-only.png)
-![image](only-all-green.png)
 
 ## APIs
 
@@ -1725,16 +1683,3 @@ A rota `/explorar/bebidas/area` não deve estar disponível, retornando um erro 
 
 ***Obs: A maneira como as APIs devem ser estruturadas segue os seguintes modelos: https://www.themealdb.com/api.php e https://www.thecocktaildb.com/api.php***
 
-
-# Avisos finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_name=Turma%2012)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----
-
-Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso?
-Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
